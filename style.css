@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient( #000000 10%, #000000  40%, #00000000 90%);
+    padding-bottom: 10px,
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileimage {
+    width: 200px;
+}
+.profile h1 {
+    color: floralwhite;
+    font-size: 40px;
+    transform: translateY(5px);
+}
+.biodata  {
+    background: linear-gradient( #000000d0 0%, #000000ad  40%, #00000000 100%);
+    padding-bottom: -200px;
+}
+.Biodata {
+    padding-top: 55px;
+}
+.footer {
+    background-color: white;
+}
+.contact a {
+    color: black;
+    font-size: 30px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "montserrat";
+    background-image: url(ultramen\ mebius.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    color: #000000;
+    position: relative;
+    padding: 20px 50px 0 50px;
+}
+
+ul , li {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+.benner {
+    margin-top: 100px;
+    width: 65%;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "bebas neue";
+    margin-top: 50px;
+}
+
+p {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: transparent;
+    border: 3px solid #000000;
+}
